@@ -1,1 +1,1 @@
-## Here are the solutions
+## Just a bunch of exercises I do to learn Python.
