@@ -57,7 +57,7 @@ def return_book(id_user, id_book,):
 def display_status():          
     available_count = sum(1 for book in books.values() if book["available"])
     print("Number of books available :", available_count)
-    print("Livres disponibles :")
+    print("Books available :")
     for book in books.values():
         if book["available"]:
             print(f"  - {book['title']} de {book['author']}")
